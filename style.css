@@ -1,0 +1,52 @@
+body
+    { 
+     
+
+    background:rgb(33, 27, 49);
+    color:#ebeff5;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px;
+       
+    }
+h1
+    { 
+     background:rgba(125, 128, 145, 0.623);
+            
+    color:white;
+    font-size:72px;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    width:100%;
+    border-radius:15px 10px; 
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke ;
+    }
+
+nav{
+    text-align:  center;
+    background:rgba(125, 128, 145, 0.623);
+    padding-top: 5px;  
+    padding-bottom: 5px;  
+    padding-left: 5px;  
+    padding-right: 20px;    
+    margin-bottom: 25 px;
+    border-bottom: 3px solid whitesmoke ;
+    border-top: 3px solid whitesmoke;
+    color:white;
+
+}
+.HomeButton{
+    margin-right: 20px;
+    margin-left: 0px;
+    color: white;
+}
+.Pagina1Button{
+    margin-right: 20px;
+    color: white;
+}
+.Pagina2Button {
+    margin-right: 20px;
+    color: white;
+
+}
