@@ -2,7 +2,7 @@
 var dialogBox = prompt('Daca doriti sa mi trimiteti un mesaj, puteti sa o faceti utilizand casuta de mai jos.');
 
 alert('Multumesc!' );
-//console.log('cheat sheet');
+console.log('cheat sheet');
 
 
 // //functii //sintaxa 1
@@ -39,7 +39,7 @@ alert('Multumesc!' );
 
 
 
-//obiecte 
+// obiecte 
 
 // var movie= {
 //     name: "movie Movie",
@@ -68,43 +68,43 @@ alert('Multumesc!' );
 //   } 
 
 
-//FOR IN 
+// FOR IN 
 // for( var key in movie){
 //     console.log(key);
 // console.log(movie[key]);
 // }
 
 
-//putem sa avem doua obiecte egale? O_o Raspuns:
- //Da , doar daca al  doilea obiect e asigant prin referinta=>
+// // putem sa avem doua obiecte egale? O_o Raspuns:
+// //  Da , doar daca al  doilea obiect e asigant prin referinta=>
 
 
 // var movie2 = movie;
 // console.log(movie2 === movie);
 
 
-//in acest moment se creaza movie2 care moovie 2 nu 
-//isi mai face o zona de memorie si isi ia datele direct
-// din movieș
-//,insa daca modificam in movie2 se modifica si in movie :|
+// // in acest moment se creaza movie2 care moovie 2 nu 
+// // isi mai face o zona de memorie si isi ia datele direct
+// // din movieș
+// // ,insa daca modificam in movie2 se modifica si in movie :|
 
 
 // se rezolva aceasta problema folosind object.assign
- //var movie2=Object.assign({},movie);
- //movie2.price = 20;
+//  var movie2=Object.assign({},movie);
+//  movie2.price = 20;
 
 
 
-//* HOISTING
+// * HOISTING
 
 
-//hoisting se aplica doar la var si la function
-//nu se aplica la let si const
+// // hoisting se aplica doar la var si la function
+// // nu se aplica la let si const
 
 // console.log(dog);
 // var dog = 'rex';
 
-//hoisting = cum vede browserul ce rulam noi 
+// hoisting = cum vede browserul ce rulam noi 
 
 // muta declararea variabilelor sus de tot in primele linii;
 // var dog;
@@ -122,9 +122,9 @@ alert('Multumesc!' );
 // }
 
 
- //*CALLBACK Functions
+//  *CALLBACK Functions
 
- //callback ul este o functie plasata ca si parametru
+//  callback ul este o functie plasata ca si parametru
 // function conversation(message, callback){
 //     console.log(message);
 //     callback();
@@ -137,7 +137,7 @@ alert('Multumesc!' );
 //   conversation('hello Hodor!',hodorReplay);
 
 
-//*CLOSURE 
+// *CLOSURE 
 
 // function myFunc() {
 //     var sum = 0;
