@@ -14,6 +14,7 @@ alert('Multumesc!' );
 // const sumVariable=sum(2,3);
 // console.log(sumVariable);
 
+
 // //functii anonime// sintaxa 2
 // const sum = function (nr1, nr2){
 //     var suma = nr1+nr2;
@@ -23,6 +24,7 @@ alert('Multumesc!' );
 // const suSumaNR  =sum(2,3);
 // console.log(suSumaNR);
 // // functiile anonime + utilizarea const +=> da eroare aatunci cand introduci o fct de doua ori 
+
 
 // //arrow function // sintaxa 3 
 // const operatie = (a,b)=>  a+b
@@ -34,6 +36,8 @@ alert('Multumesc!' );
 //     return a+b;
 // } 
 // console.log(operatie(2,3))
+
+
 
 //obiecte 
 
@@ -71,11 +75,51 @@ alert('Multumesc!' );
 // }
 
 
-//putem sa avem doua obiecte egale? O_o Raspuns: Da , doar daca al  doilea obiect e asigant prin referinta=>
-  
+//putem sa avem doua obiecte egale? O_o Raspuns:
+ //Da , doar daca al  doilea obiect e asigant prin referinta=>
+
+
 // var movie2 = movie;
 // console.log(movie2 === movie);
 
+
+//in acest moment se creaza movie2 care moovie 2 nu 
+//isi mai face o zona de memorie si isi ia datele direct
+// din movieș
+//,insa daca modificam in movie2 se modifica si in movie :|
+
+
+// se rezolva aceasta problema folosind object.assign
+ //var movie2=Object.assign({},movie);
+ //movie2.price = 20;
+
+
+
+//* HOISTING
+
+
+//hoisting se aplica doar la var si la function
+//nu se aplica la let si const
+
+// console.log(dog);
+// var dog = 'rex';
+
+//hoisting = cum vede browserul ce rulam noi 
+
+// muta declararea variabilelor sus de tot in primele linii;
+// var dog;
+// console.log(dog);
+// dog='Rex'
+  
+  
+  
+// hoisting la functii 
+// console.log(sum(2,3));
+
+// function sum (number1 , number2){
+//   return number1+number2;
+
+// }
 
 
  
