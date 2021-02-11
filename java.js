@@ -122,4 +122,38 @@ alert('Multumesc!' );
 // }
 
 
- 
+ //*CALLBACK Functions
+
+ //callback ul este o functie plasata ca si parametru
+// function conversation(message, callback){
+//     console.log(message);
+//     callback();
+//   }
+//   function hodorReplay(){
+//     console.log('Hodor!');
+    
+//   }
+//   //apelam conversatia pt a vedea cllback ul
+//   conversation('hello Hodor!',hodorReplay);
+
+
+//*CLOSURE 
+
+// function myFunc() {
+//     var sum = 0;
+//     // myFunc returneaza o alta functie
+//     return function(value) {
+//       // Functia din interiorul lui myFunc are acces la variabila sum
+//       sum += value;
+//       return sum;
+//     }
+//   }
+  
+//   // In momentul apelarii lui myFunc, theSum are acces atat la variabila
+//   // sum, cat si la functia returnata
+//   var theSum = myFunc();
+//   var theSum2 = myFunc();
+//   // cand theSum e apelata, se aduna 10 la variabila sum, vizibila in contextul
+//   // lui theSum
+//   console.log(theSum(10), theSum(1), theSum(2), theSum2(100));
+  
