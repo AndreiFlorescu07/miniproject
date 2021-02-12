@@ -1,7 +1,7 @@
 body
     { 
      
-
+       
     background:rgb(53, 60, 161);
     color:#ebeff5;
     font-family:Arial, Helvetica, sans-serif;
@@ -28,6 +28,7 @@ h1
 
     .textTitlu
     {
+        
         color:whitesmoke;
         font-size:50px;
         text-align: center;
@@ -83,12 +84,17 @@ img {
     margin: 0 auto;
 }
 
+/*ca sa pot sa afisez cv ul in dreapta pozei */
+.pozaSiCv{
+    display:flex;
+}
 /*modificarile pt poza de pe apgina cu cv*/
 /*style pt poza polaroid */
 
 body {margin:25px;}
 
 div.polaroid {
+    margin-top: 20px;
     position: relative;
     width: 30%;
   
@@ -144,3 +150,79 @@ div.container {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+
+
+  /*style pt containerele pt cv */
+.cvBackground{
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top:20px;
+    margin-left: 30px;
+    width: 100%;
+    background-color:rgb(194, 238, 255) ;
+    background-image: linear-gradient(to right, rgb(163, 196, 235), #3e74e7);
+    
+  }
+  .cutie{
+      display:flex;
+      width: auto;
+      margin:10px;
+      
+      border:3px solid cornflowerblue;
+      background-color:rgb(53, 60, 161);
+      border-radius: 5px;
+  }
+.profil1{
+  
+    min-height: 100px;
+  }
+.profil2{
+    
+    
+    min-height: 100px;
+      
+}
+.profil3{
+    
+    min-height: 10px;
+      
+}
+
+.profil4{
+    
+    min-height: 10px;
+      
+}
+.facebook{
+    display: flex;
+    display:inline-flexbox;
+  
+}
+.facebookButton{
+    height: 50%;
+    margin-left:10px;
+   
+    background-color: #3b5998;
+    border-radius: 10px;
+}
+
+.instagram{
+   high:10px;
+   width: 10px;;
+  
+    
+    
+}
+.instagramButton{
+    height: 50%;
+    margin-left:10px;
+    border-radius: 10px;
+    
+    background-color: #E1306C;
+}
+.continut{
+    display: flex;
+
+}
