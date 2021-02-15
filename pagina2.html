@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="reviewPageStyle.css" >
     <meta charset="UTF-8">
-    <title>Pagina2</title>
-    
+    <title>Review</title>
   </head>
   <body>
-    <h1>Pagina2 <span> Titlu</span> </h1>
+    <h1></span> </h1>
     <nav>
       <a href="index.html" id ="homeButton"><i class="fa fa-fw fa-user"  ></i> Prezentare</a>
-      <a class="Pagina1Button" href = "pagina1.html">Pagina1</a>
-      <a class="Pagina2Button" href = "pagina2.html">Pagina2</a>
-  </nav>
-       
-    <script src="java.js"></script>
+      <a href = "pagina1.html" id="pagina1">Pagina1</a>
+      <a href = "pagina2.html" id="pagina2" class="fa fa-book">Review</a>
+    </nav>
+    <div id="reviewBox">
+      <div id="aranjament">
+        <div id="genderBox">
+          <p>Please select your gender:</p>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br> 
+        </div>
+      <div id="identificare">
+        <form action="/action_page.php">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          
+          <label for="recenzie">Type here :</label>
+          <input type="text" id="recenzie" name="recenzie"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div id="reviews">Lista review-uri:
+      </div>
+      </div>
+      <img id="pitic" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/d67aa830490291.56259dfcf13f1.gif">
+    </div>
   </body>
 </html>

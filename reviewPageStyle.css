@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+#reviewBox{
+    display:flex;
+    margin:auto;
+    width: 100%;
+    background-color:rgb(194, 238, 255) ;
+    background-image: linear-gradient(to right, rgb(163, 196, 235), #3e74e7);
+    height: auto;
+}
+#pitic{
+    display:flex;
+    border-radius: 5px;
+}
+
+#aranjament{
+    display:column;
+    width: 100%;
+    margin:20px;
+      
+    border:4px solid cornflowerblue;
+    background-color:rgb(105, 113, 221);
+    border-radius: 5px;
+}
+
+#genderBox{
+    width: 100%;
+    margin:auto ;
+    
+    border:4px solid cornflowerblue;
+    background-color:rgb(105, 113, 221);
+    border-radius: 5px;
+   
+  
+}
+#identificare{
+    width: 100%;
+    margin:auto;
+      
+    border:4px solid cornflowerblue;
+    background-color:rgb(105, 113, 221);
+    border-radius: 5px;
+  
+   
+}
+#reviews{
+    width: 100%;
+    margin:auto;
+    height: fit-content;
+    border:4px solid cornflowerblue;
+    background-color:rgb(105, 113, 221);
+    border-radius: 5px;
+}
