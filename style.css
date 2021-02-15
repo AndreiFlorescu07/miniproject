@@ -47,11 +47,13 @@ h1
         font-weight: 100;
             
     }
+
 span{
     font-weight: 800;
     font-size: 60px;
 }
 nav{
+  
     text-align:  center;
     background:rgba(125, 128, 145, 0.623);
     padding-top: 5px;  
@@ -63,22 +65,60 @@ nav{
     border-top: 3px solid whitesmoke;
     color:white;
     width: 100%;
+    overflow: auto;
 
+}
+a{
+  border-radius: 8px 8px;
 }
 #homeButton{
     margin-right: 20px;
     margin-left: 0px;
     color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 8px;
+   
 }
-.Pagina1Button{
-    margin-right: 20px;
-    color: white;
+#homeButton:hover{
+  background-color: white;
+  color:black;
+  border-radius: 8px;
+  
 }
-.Pagina2Button {
-    margin-right: 20px;
-    color: white;
 
+#pagina1{
+    margin-right: 20px;
+    margin-left: 0px;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 8px;
 }
+#pagina1:hover{
+  background-color: white;
+  color:black;
+  border-radius: 8px;
+  
+}
+#pagina2 {
+  margin-right: 20px;
+  margin-left: 0px;
+  color: white;
+  padding: 12px;
+  font-size: 17px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+  #pagina2:hover{
+    background-color: white;
+    color:black;
+    border-radius: 8px;
+    
+  }
+
 img {
     display: block;
     margin: 0 auto;
@@ -232,38 +272,10 @@ div.container {
 
 }
 
-/* nav bar modificare
 
 
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
 
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
 
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-.navbar a:hover {
-  background-color: #000;
-}
 
-.active {
-  background-color: #4CAF50;
-}
 
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-</style>*/
