@@ -1,6 +1,6 @@
 body
     { 
-     
+      
        
     background:rgb(53, 60, 161);
     color:#ebeff5;
@@ -66,6 +66,8 @@ nav{
     color:white;
     width: 100%;
     overflow: auto;
+    
+    
 
 }
 a{
@@ -200,10 +202,11 @@ div.container {
     border-radius: 8px;
     margin-top:20px;
     margin-left: 30px;
+    margin-bottom: auto;
     width: 100%;
     background-color:rgb(194, 238, 255) ;
     background-image: linear-gradient(to right, rgb(163, 196, 235), #3e74e7);
-    
+    height: auto;
   }
   .cutie{
       display:flex;
@@ -235,35 +238,45 @@ div.container {
     min-height: 10px;
       
 }
-.facebook{
+#facebook{
     display: flex;
     height:auto;
     width: auto;
+    margin-bottom: auto;
+    
 
   
 }
-.facebookButton{
+#facebookButton{
     width: 100px;
     height: auto;
     margin-left:10px;
     border-radius: 10px;
     background-color: #3b5998;
+    color:white;
+    text-decoration: none;
+   
 }
 
-.instagram{
+#instagram{
     display:flex;
     height:auto;
     width: auto;
+    margin-bottom: auto;
   
     
     
 }
-.instagramButton{
+#instagramButton{
     width: 100px;
     height: auto;
     margin-left:10px;
     border-radius: 10px;
     background-color: #E1306C;
+    color:white;
+    text-decoration: none;
+
+    
     
 }
 .continut{
@@ -272,10 +285,22 @@ div.container {
 
 }
 
+.SocialBox{
+  display:flex;
+  margin-bottom: 15px;
+}
 
+#instagramButton:hover{
+  background-color: white;
+  color:black;
+  border-radius: 8px;
+}
 
-
-
+#facebookButton:hover{
+  background-color: white;
+  color:black;
+  border-radius: 8px;
+}
 
 
 
